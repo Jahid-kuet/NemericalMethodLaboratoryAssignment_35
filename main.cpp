@@ -1,14 +1,7 @@
 #include "2107078.hpp"
 #include "2107031.hpp"
 #include "2107064.hpp"
-
-
 using namespace std;
-
-
-
-
-
 // Menu display function
 void displayMenu()
 {
@@ -35,7 +28,7 @@ int main()
 {
     int choice;
     char subChoice;
-
+    
     while (true)
     {
         displayMenu();
@@ -91,6 +84,7 @@ int main()
             }
             break;
         }
+            
         case 2:
         {
             cout << "Choose a method for Solution of Non-linear Equations:\n";
@@ -120,7 +114,6 @@ int main()
             }
             break;
         }
-
 
         case 3:
         {
