@@ -7,48 +7,68 @@ In Gauss Elimination -> We performd row operations to transform the matrix into 
 In Gauss-Jordan Elimination -> We did  further by transforming the matrix into reduced row-echelon form, making each variable's coefficient 1 and eliminating other entries in each column. Both functions print the solutions to the system.
 In the lu method -> firstly we have created the lower and upper triangular matrix . Then we did the forward substitution to get the Y matrix and after doing backward substitution we got the solution matrix X.
 
-The  matrix inversion uses Gauss-elimination and Gauss-Jordan.  
+<hr>
 
-1) Matrix Inversion Using Gauss-Elimination and Gauss-Jordan Methods
-Input format:
-
+<h2>1) Matrix Inversion Using Gauss-Elimination and Gauss-Jordan Methods</h2>
+<p><strong>Input format:</strong></p>
+<pre>
 Enter the number of unknowns (variables): n
 Enter the augmented matrix (A | I form): A | I
-Output format:
+</pre>
 
-I | A-1 
-where A-1 is the inverse matrix of A.
-Test Case 1:
-Input:
+<p><strong>Output format:</strong></p>
+<pre>
+I | A<sup>-1</sup> 
+where A<sup>-1</sup> is the inverse matrix of A.
+</pre>
 
+<h3>Test Case 1:</h3>
+<p><strong>Input:</strong></p>
+<pre>
 3
 1   2   3   1   0   0
 4   6   7   0   1   0
 -2  1   5   0   0   1
-Output:
+</pre>
 
+<strong>Output:</strong>
+<pre>
 7.67    -2.33   -1.33
 -11.33  3.67    1.67
 5.33    -1.67   -0.67
-Test Case 2:
-Input:
+</pre>
+
+<h3>Test Case 2:</h3>
+<strong>Input:</strong>
+<pre>
 4
 0   0   -1  2   1   0   0   0
 0   1   0   0   0   1   0   0
 9   0   0   0   0   0   1   0
 0   0   0   1   0   0   0   1
-Output:
+</pre>
 
+<p><strong>Output:</strong></p>
+<pre>
 0.00    0.00    0.11    0.00
 0.00    1.00    0.00    0.00
 -1.00   0.00    0.00    2.00
 0.00    0.00    0.00    1.00
-Solution of Differential Equations: Runge-Kutta Method (RK4)  :
+</pre>
+
+<hr>
+
+2) Solution of Differential Equations: Runge-Kutta Method (RK4)
 Consider the Differential Equation: dy/dx = x - y
-Input: memoir Enter h(step size) and x(final value of x): h = 1 x = 10
 
-Output: Tabular representation of X, Y (RK4), Y (Exact), and Error
+Input:
+memoir
+Enter h(step size) and x(final value of x):
+h = 1
+x = 10
 
+Output:
+Tabular representation of X, Y (RK4), Y (Exact), and Error
 Bisection method :  In this method, the interval distance between the initial values is treated as a line segment. It then successively divides the interval in half and replaces one endpoint with the midpoint so that the root is bracketed. This method is based on The Intermediate Value Theorem.
 
 False Position method: Step 1: we choosed two initial points a and b such that function at those points have opposite sign  f(a)⋅f(b)<0.
