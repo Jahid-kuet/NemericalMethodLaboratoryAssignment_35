@@ -58,13 +58,13 @@ where A<sup>-1</sup> is the inverse matrix of A.
 
 <hr>
 
-2) Solution of Differential Equations: Runge-Kutta Method (RK4)
+<p><strong>2) Solution of Differential Equations:</strong></p>
+<p><strong>Runge-Kutta Method (RK4) </strong></p>
 Consider the Differential Equation: dy/dx = x - y
 
 Input:
-memoir
 Enter h(step size) and x(final value of x):
-h = 1
+h = 1  
 x = 10
 
 Output:
