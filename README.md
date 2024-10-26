@@ -59,16 +59,17 @@ where A<sup>-1</sup> is the inverse matrix of A.
 <hr>
 
 <p><strong>2) Solution of Differential Equations:</strong></p>
-<p><strong>Runge-Kutta Method (RK4) </strong></p>
-Consider the Differential Equation: dy/dx = x - y
+<p>Runge-Kutta Method (RK4) </p>
+<p>Consider the Differential Equation: dy/dx = x - y </p>
 
-Input:
-Enter h(step size) and x(final value of x):
-h = 1  
-x = 10
-
-Output:
-Tabular representation of X, Y (RK4), Y (Exact), and Error
+<p><strong>Input format:</strong></p>
+<pre>
+Enter step size and the final value of x: h x
+h = 1  x = 10
+</pre>
+<p><strong>Output:</strong></p>
+<p>Tabular representation of X, Y (RK4), Y (Exact), and Error</p>
+<br>
 Bisection method :  In this method, the interval distance between the initial values is treated as a line segment. It then successively divides the interval in half and replaces one endpoint with the midpoint so that the root is bracketed. This method is based on The Intermediate Value Theorem.
 
 False Position method: Step 1: we choosed two initial points a and b such that function at those points have opposite sign  f(a)⋅f(b)<0.
